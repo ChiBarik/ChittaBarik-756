@@ -14,7 +14,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "courses_table")
+@Table(name = "courses_table")    //This assigned table name
 public class Course {
 
 	@Id
